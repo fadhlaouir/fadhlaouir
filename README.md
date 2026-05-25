@@ -20,8 +20,9 @@ Currently building:
 ## Links
 
 
-- 🌐 Maison GR: https://www.maisongr.com
-- 🧠 Resistaa: https://www.resistaa.com
-- 💼 LinkedIn: https://www.linkedin.com/in/fadhlaouiraed/
-- ✍️ Medium: https://medium.com/@fadhlaouiraed
-- 🏆 Credly: https://www.credly.com/users/fadhlaouir/badges
+- 🌐 <a href="https://www.maisongr.com" target="_blank">Maison GR</a>
+- 🧠 <a href="https://www.resistaa.com" target="_blank">Resistaa</a>
+- 💼 <a href="https://www.linkedin.com/in/fadhlaouiraed/" target="_blank">LinkedIn</a>
+- ✍️ <a href="https://medium.com/@fadhlaouiraed/" target="_blank">Medium</a>
+- 🏆 <a href="https://www.credly.com/users/fadhlaouir/badges" target="_blank">Credly</a>
+
