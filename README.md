@@ -13,7 +13,7 @@
 ## About
 
 ```txt
-Founder & full-stack developer building AI-powered products, SaaS platforms, and modern web/mobile applications.
+Full-Stack Software Engineer building AI-powered products, SaaS platforms, and modern web/mobile applications designed to improve productivity, focus, and mental clarity.
 ```
 
 ---
