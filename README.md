@@ -1,84 +1,23 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png">
+  <img src="assets/header-light.png" alt="Fadhlaoui Raed, founder of Maison GR. Builds web apps, SaaS and AI tools. Based in Canada.">
+</picture>
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:4F46E5,100:06B6D4&height=220&section=header&text=Raed%20Fadhlaoui&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer&descSize=16&descAlignY=58" />
+I'm Raed, founder of [Maison GR](https://www.maisongr.com), a software studio. We build our own products, and we build our clients' with the same care: web apps, SaaS and AI tools that are clear, fast and easy to live with.
 
-  <br />
+## Open source
 
-  <img src="https://komarev.com/ghpvc/?username=fadhlaouir&label=Profile%20Views&color=4F46E5&style=flat-square" />
+| Project | What it is |
+|---|---|
+| [**maisongr-ai-engineering-skills**](https://github.com/maison-gr/maisongr-ai-engineering-skills) | One engineering standard for every AI coding agent: seven principles, ten skills, and receipts that check what an agent claims it verified. `npx maisongr-skills` |
+| [**create-express-node-starter**](https://github.com/fadhlaouir/create-express-node-starter) | Set up an Express.js project from a template in one command. `npx create-express-node-starter` |
+| [**express-node-starter**](https://github.com/fadhlaouir/express-node-starter) | A starting point for production-ready REST APIs with Node.js, Express and Mongoose |
+| [**mern-workshop**](https://github.com/fadhlaouir/mern-workshop) | Web development basics, taught for International Women's Day at ISET Nabeul and ISET Kairouan |
 
-</div>
+## How I work
 
-<div>
+Understand the problem before writing code. Keep each change small enough to review. Prove it works, and say plainly what was not checked.
 
-  <hr />
+## Contact
 
-  <h2>About Me</h2>
-
-  <pre><code>Software Engineer focused on building practical, human-centered digital products.
-
-I care about clean interfaces, useful systems, AI-assisted workflows, and software that reduces friction instead of adding more complexity.</code></pre>
-
-</div>
-
-<div>
-
-  <hr />
-
-  <h2>What I Work On</h2>
-
-  <ul>
-    <li>Web applications</li>
-    <li>SaaS products</li>
-    <li>AI-powered user experiences</li>
-    <li>Frontend and full-stack development</li>
-    <li>Product design and UX thinking</li>
-    <li>Tools that make everyday work simpler</li>
-  </ul>
-
-</div>
-
-<div>
-
-  <hr />
-
-  <h2>How I Think About Software</h2>
-
-  <pre><code>Good software should feel clear, useful, and calm.
-
-It should help people move faster without making them feel overwhelmed.</code></pre>
-
-</div>
-
-<div>
-
-  <hr />
-
-  <h2>Connect</h2>
-
-<div align="center">
-
-  <a href="https://www.linkedin.com/in/fadhlaouiraed/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-Raed%20Fadhlaoui-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn - Raed Fadhlaoui" />
-  </a>
-
-  <a href="https://medium.com/@fadhlaouiraed/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Medium-@fadhlaouiraed-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium - @fadhlaouiraed" />
-  </a>
-
-</div>
-
-</div>
-
-<div align="center">
-
-  <br />
-
-  <h3>Building simple, useful, human-centered software.</h3>
-
-</div>
-
-<div align="center">
-
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:4F46E5,100:111827&height=120&section=footer" />
-
-</div>
+[maisongr.com](https://www.maisongr.com) · [LinkedIn](https://www.linkedin.com/in/fadhlaouiraed/) · [Medium](https://medium.com/@fadhlaouiraed/)
