@@ -2,24 +2,24 @@
 
 In my free time I send fixes to the open-source tools I build with. Each one is reproduced, covered by a test, and kept to a single focused change. This page tracks every one of them, including the ones that did not land and why.
 
-*Last updated 4 November 2026.*
+_Last updated 4 November 2026: 3 merged, 4 in review, 2 closed._
 
 ## In review
 
-| Project | Change | Fixes | Waiting on |
-|---|---|---|---|
-| [Meta · Docusaurus #12839](https://github.com/meta/docusaurus/pull/12839) | Convert Git Bash (MSYS) paths to real Windows paths so builds work under Git Bash | [#11920](https://github.com/meta/docusaurus/issues/11920) | A maintainer to approve CI for a first-time contributor, then a review |
-| [Google · Functions Framework for Node.js #811](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/pull/811) | Parse `application/*+json` request bodies as JSON | [#809](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/issues/809) | A maintainer to approve CI, then a review |
-| [Amethystora #4](https://github.com/Arsslensoft/amethystora/pull/4) | Read the composefs digest where bootc 1.17 writes it, which unblocks every stable image | | A maintainer to approve CI, then a review |
-| [Amethystora image template #1](https://github.com/Arsslensoft/amethystora-image-template/pull/1) | Apply a company policy that holds VPN connections alone, instead of dropping it silently | | A maintainer to approve CI, then a review |
+| Project | Change | Fixes | Build | Review |
+|---|---|---|---|---|
+| [Meta · Docusaurus #12839](https://github.com/meta/docusaurus/pull/12839) | Convert Git Bash (MSYS) paths to real Windows paths so builds work under Git Bash | [#11920](https://github.com/meta/docusaurus/issues/11920) | CLA, security scans and the preview deploy pass; the full CI waits for a maintainer to approve it for a first-time contributor | CodeRabbit reviewed it; a lint error its CI would have caught is fixed. Waiting for a maintainer |
+| [Google · Functions Framework for Node.js #811](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/pull/811) | Parse `application/*+json` request bodies as JSON | [#809](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/issues/809) | CLA and commit-message checks pass; the full CI waits for a maintainer to approve it | Waiting for a maintainer |
+| [Amethystora #4](https://github.com/Arsslensoft/amethystora/pull/4) | Read the composefs digest where bootc 1.17 writes it, which unblocks every stable image | | The image builds wait for a maintainer to approve them | CodeRabbit asked for each digest to be checked against its own; done and answered. Waiting for the maintainer |
+| [Amethystora image template #1](https://github.com/Arsslensoft/amethystora-image-template/pull/1) | Apply a company policy that holds VPN connections alone, instead of dropping it silently | | The image build waits for a maintainer to approve it | Waiting for the maintainer |
 
 ## Merged
 
 | Project | Change | Fixes | Shipped in |
 |---|---|---|---|
-| [IBM · OpenAPI Validator #873](https://github.com/IBM/openapi-validator/pull/873) | Stop flagging binary file-download responses as collections | [#786](https://github.com/IBM/openapi-validator/issues/786) | Merged 4 November 2026; the release that carries it is being built |
-| [IBM · OpenAPI Validator #869](https://github.com/IBM/openapi-validator/pull/869) | Validate files given with Windows separators or glob characters | [#516](https://github.com/IBM/openapi-validator/issues/516) | `ibm-openapi-validator` 1.38.6, merged 3 November 2026 |
-| [IBM · OpenAPI Validator #870](https://github.com/IBM/openapi-validator/pull/870) | Fix a broken link to the Spectral OpenAPI rules | [#866](https://github.com/IBM/openapi-validator/issues/866) | `ibm-openapi-validator` 1.38.5, merged 3 November 2026 |
+| [IBM · OpenAPI Validator #873](https://github.com/IBM/openapi-validator/pull/873) | Stop flagging binary file-download responses as collections | [#786](https://github.com/IBM/openapi-validator/issues/786) | `@ibm-cloud/openapi-ruleset` 1.33.17 and `ibm-openapi-validator` 1.38.8, approved and merged 4 November 2026 |
+| [IBM · OpenAPI Validator #869](https://github.com/IBM/openapi-validator/pull/869) | Validate files given with Windows separators or glob characters | [#516](https://github.com/IBM/openapi-validator/issues/516) | `ibm-openapi-validator` 1.38.6, approved and merged 3 November 2026 |
+| [IBM · OpenAPI Validator #870](https://github.com/IBM/openapi-validator/pull/870) | Fix a broken link to the Spectral OpenAPI rules | [#866](https://github.com/IBM/openapi-validator/issues/866) | `ibm-openapi-validator` 1.38.5, approved and merged 3 November 2026 |
 
 ## Closed without merging
 
