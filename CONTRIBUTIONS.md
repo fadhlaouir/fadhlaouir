@@ -2,7 +2,7 @@
 
 In my free time I send fixes to the open-source tools I build with. Each one is reproduced, covered by a test, and kept to a single focused change. This page tracks every one of them, including the ones that did not land and why.
 
-_Last updated 5 November 2026: 3 merged, 4 in review, 2 closed._
+_Last updated 6 November 2026: 4 merged, 3 in review, 2 closed._
 
 ## In review
 
@@ -10,13 +10,13 @@ _Last updated 5 November 2026: 3 merged, 4 in review, 2 closed._
 |---|---|---|---|---|
 | [Meta · Docusaurus #12839](https://github.com/meta/docusaurus/pull/12839) | Convert MSYS Git paths to real Windows paths so builds work with MSYS2's Git | [#11920](https://github.com/meta/docusaurus/issues/11920) | A new CI job runs a real `docusaurus build` with MSYS2's Git: it fails without the fix and passes with it, on my fork. CLA, security scans and the preview deploy pass; the full CI waits for a maintainer to approve it | CodeRabbit reviewed it. Waiting for a maintainer |
 | [Google · Functions Framework for Node.js #811](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/pull/811) | Parse `application/*+json` request bodies as JSON | [#809](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/issues/809) | CLA and commit-message checks pass; the full CI waits for a maintainer to approve it | Waiting for a maintainer |
-| [Amethystora #4](https://github.com/Arsslensoft/amethystora/pull/4) | Read the composefs digest where bootc 1.17 writes it, which unblocks every stable image | | All six stable images build and seal on the pull request. One latest image stopped on a registry lookup and needs a re-run | CodeRabbit asked for each digest to be checked against its own; done and answered. Waiting for the maintainer's approval, and auto-merge is on |
 | [Amethystora image template #1](https://github.com/Arsslensoft/amethystora-image-template/pull/1) | Apply a company policy that holds VPN connections alone, instead of dropping it silently | | The image build waits for a maintainer to approve it | Waiting for the maintainer |
 
 ## Merged
 
 | Project | Change | Fixes | Shipped in |
 |---|---|---|---|
+| [Amethystora #4](https://github.com/Arsslensoft/amethystora/pull/4) | Read the composefs digest where bootc 1.17 writes it, which unblocks every stable image | | Approved and merged 6 November 2026; no tagged release yet |
 | [IBM · OpenAPI Validator #873](https://github.com/IBM/openapi-validator/pull/873) | Stop flagging binary file-download responses as collections | [#786](https://github.com/IBM/openapi-validator/issues/786) | `@ibm-cloud/openapi-ruleset` 1.33.17 and `ibm-openapi-validator` 1.38.8, approved and merged 4 November 2026 |
 | [IBM · OpenAPI Validator #869](https://github.com/IBM/openapi-validator/pull/869) | Validate files given with Windows separators or glob characters | [#516](https://github.com/IBM/openapi-validator/issues/516) | `ibm-openapi-validator` 1.38.6, approved and merged 3 November 2026 |
 | [IBM · OpenAPI Validator #870](https://github.com/IBM/openapi-validator/pull/870) | Fix a broken link to the Spectral OpenAPI rules | [#866](https://github.com/IBM/openapi-validator/issues/866) | `ibm-openapi-validator` 1.38.5, approved and merged 3 November 2026 |
