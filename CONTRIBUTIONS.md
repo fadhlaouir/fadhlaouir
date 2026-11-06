@@ -1,6 +1,6 @@
 # Contributing upstream
 
-In my free time I send fixes to the open-source tools I build with. Each one is reproduced, covered by a test, and kept to a single focused change. This page tracks every one of them, including the ones that did not land and why.
+In my free time I send fixes to the open-source tools I build with. Each one is reproduced and kept to a single focused change, with a test wherever the project has a place for one. This page tracks every one of them, including the ones that did not land and why.
 
 _Last updated 6 November 2026: 4 merged, 3 in review, 2 closed._
 

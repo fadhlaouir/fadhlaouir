@@ -10,13 +10,14 @@ I'm Raed, founder of [Maison GR](https://www.maisongr.com), a software studio. W
 | Project | What it is |
 |---|---|
 | [**maisongr-ai-engineering-skills**](https://github.com/maison-gr/maisongr-ai-engineering-skills) | One engineering standard for every AI coding agent: seven principles, ten skills, and receipts that check what an agent claims it verified. `npx maisongr-skills` |
+| [**sitemap**](https://github.com/maison-gr/sitemap) | One sitemap, two readers: the XML search engines need, and a page in your site's own design for people. Next.js, Astro, SvelteKit, Nuxt, Express. `npx maisongr-sitemap init` |
 | [**create-express-node-starter**](https://github.com/fadhlaouir/create-express-node-starter) | A secure Express 5 and MongoDB REST API in one command: authentication, uploads, API docs, tests, Docker and CI, with every template tested as you get it. `npx create-express-node-starter` |
 | [**express-node-starter**](https://github.com/fadhlaouir/express-node-starter) | The Express 5 starter behind it: JWT, roles, email confirmation, password reset, sessions that end when the account changes, and 43 integration tests that need no database |
-| [**mern-workshop**](https://github.com/fadhlaouir/mern-workshop) | Web development basics, taught for International Women's Day at ISET Nabeul and ISET Kairouan |
+| [**mern-workshop**](https://github.com/fadhlaouir/mern-workshop) | A three-day training in full-stack web development with the MERN stack, ending in a hands-on CRUD project |
 
 ## Contributing upstream
 
-In my free time I send fixes to the open-source tools I build with: IBM, Meta, Google and others. Each one is reproduced, covered by a test, and kept to a single focused change.
+In my free time I send fixes to the open-source tools I build with: IBM, Meta, Google and others. Each one is reproduced and kept to a single focused change, with a test wherever the project has a place for one.
 
 **[See every contribution and where it stands →](CONTRIBUTIONS.md)**
 
