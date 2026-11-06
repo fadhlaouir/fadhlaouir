@@ -9,7 +9,7 @@ I'm Raed, founder of [Maison GR](https://www.maisongr.com), a software studio. W
 
 | Project | What it is |
 |---|---|
-| [**maisongr-ai-engineering-skills**](https://github.com/maison-gr/maisongr-ai-engineering-skills) | One engineering standard for every AI coding agent: seven principles, ten skills, and receipts that check what an agent claims it verified. `npx maisongr-skills` |
+| [**maisongr-skills**](https://github.com/maison-gr/maisongr-skills) | One engineering standard for every AI coding agent: seven principles, ten skills, and receipts that check what an agent claims it verified. `npx maisongr-skills` |
 | [**sitemap**](https://github.com/maison-gr/sitemap) | One sitemap, two readers: the XML search engines need, and a page in your site's own design for people. Next.js, Astro, SvelteKit, Nuxt, Express. `npx maisongr-sitemap init` |
 | [**create-express-node-starter**](https://github.com/fadhlaouir/create-express-node-starter) | A secure Express 5 and MongoDB REST API in one command: authentication, uploads, API docs, tests, Docker and CI, with every template tested as you get it. `npx create-express-node-starter` |
 | [**express-node-starter**](https://github.com/fadhlaouir/express-node-starter) | The Express 5 starter behind it: JWT, roles, email confirmation, password reset, sessions that end when the account changes, and 43 integration tests that need no database |
