@@ -2,15 +2,15 @@
 
 In my free time I send fixes to the open-source tools I build with. Each one is reproduced, covered by a test, and kept to a single focused change. This page tracks every one of them, including the ones that did not land and why.
 
-_Last updated 4 November 2026: 3 merged, 4 in review, 2 closed._
+_Last updated 5 November 2026: 3 merged, 4 in review, 2 closed._
 
 ## In review
 
 | Project | Change | Fixes | Build | Review |
 |---|---|---|---|---|
-| [Meta · Docusaurus #12839](https://github.com/meta/docusaurus/pull/12839) | Convert Git Bash (MSYS) paths to real Windows paths so builds work under Git Bash | [#11920](https://github.com/meta/docusaurus/issues/11920) | CLA, security scans and the preview deploy pass; the full CI waits for a maintainer to approve it for a first-time contributor | CodeRabbit reviewed it; a lint error its CI would have caught is fixed. Waiting for a maintainer |
+| [Meta · Docusaurus #12839](https://github.com/meta/docusaurus/pull/12839) | Convert MSYS Git paths to real Windows paths so builds work with MSYS2's Git | [#11920](https://github.com/meta/docusaurus/issues/11920) | A new CI job runs a real `docusaurus build` with MSYS2's Git: it fails without the fix and passes with it, on my fork. CLA, security scans and the preview deploy pass; the full CI waits for a maintainer to approve it | CodeRabbit reviewed it. Waiting for a maintainer |
 | [Google · Functions Framework for Node.js #811](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/pull/811) | Parse `application/*+json` request bodies as JSON | [#809](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/issues/809) | CLA and commit-message checks pass; the full CI waits for a maintainer to approve it | Waiting for a maintainer |
-| [Amethystora #4](https://github.com/Arsslensoft/amethystora/pull/4) | Read the composefs digest where bootc 1.17 writes it, which unblocks every stable image | | The image builds wait for a maintainer to approve them | CodeRabbit asked for each digest to be checked against its own; done and answered. Waiting for the maintainer |
+| [Amethystora #4](https://github.com/Arsslensoft/amethystora/pull/4) | Read the composefs digest where bootc 1.17 writes it, which unblocks every stable image | | All six stable images build and seal on the pull request. One latest image stopped on a registry lookup and needs a re-run | CodeRabbit asked for each digest to be checked against its own; done and answered. Waiting for the maintainer's approval, and auto-merge is on |
 | [Amethystora image template #1](https://github.com/Arsslensoft/amethystora-image-template/pull/1) | Apply a company policy that holds VPN connections alone, instead of dropping it silently | | The image build waits for a maintainer to approve it | Waiting for the maintainer |
 
 ## Merged
