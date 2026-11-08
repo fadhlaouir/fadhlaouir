@@ -2,7 +2,7 @@
 
 Web apps · SaaS · AI tools · Based in Canada
 
-I'm Raed, an independent software developer. I build web apps, SaaS and AI tools that are clear, fast and easy to live with.
+I build web apps, SaaS and AI tools that are clear, fast and easy to live with.
 
 ## Open source
 
