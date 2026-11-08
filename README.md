@@ -1,16 +1,13 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png">
-  <img src="assets/header-light.png" alt="Fadhlaoui Raed, founder of Maison GR. Builds web apps, SaaS and AI tools. Based in Canada.">
-</picture>
+# Fadhlaoui Raed
 
-I'm Raed, founder of [Maison GR](https://www.maisongr.com), a software studio. We build our own products, and we build our clients' with the same care: web apps, SaaS and AI tools that are clear, fast and easy to live with.
+Web apps · SaaS · AI tools · Based in Canada
+
+I'm Raed, an independent software developer. I build web apps, SaaS and AI tools that are clear, fast and easy to live with.
 
 ## Open source
 
 | Project | What it is |
 |---|---|
-| [**maisongr-skills**](https://github.com/maison-gr/maisongr-skills) | One engineering standard for every AI coding agent: seven principles, ten skills, and receipts that check what an agent claims it verified. `npx maisongr-skills` |
-| [**sitemap**](https://github.com/maison-gr/sitemap) | One sitemap, two readers: the XML search engines need, and a page in your site's own design for people. Next.js, Astro, SvelteKit, Nuxt, Express. `npx maisongr-sitemap init` |
 | [**create-express-node-starter**](https://github.com/fadhlaouir/create-express-node-starter) | A secure Express 5 and MongoDB REST API in one command: authentication, uploads, API docs, tests, Docker and CI, with every template tested as you get it. `npx create-express-node-starter` |
 | [**express-node-starter**](https://github.com/fadhlaouir/express-node-starter) | The Express 5 starter behind it: JWT, roles, email confirmation, password reset, sessions that end when the account changes, and 43 integration tests that need no database |
 | [**mern-workshop**](https://github.com/fadhlaouir/mern-workshop) | A three-day training in full-stack web development with the MERN stack, ending in a hands-on CRUD project |
@@ -27,4 +24,4 @@ Understand the problem before writing code. Keep each change small enough to rev
 
 ## Contact
 
-[maisongr.com](https://www.maisongr.com) · [LinkedIn](https://www.linkedin.com/in/fadhlaouiraed/) · [Medium](https://medium.com/@fadhlaouiraed/)
+[LinkedIn](https://www.linkedin.com/in/fadhlaouiraed/) · [Medium](https://medium.com/@fadhlaouiraed/)
