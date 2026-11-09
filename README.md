@@ -2,8 +2,6 @@
 
 # Fadhlaoui Raed
 
-#### Web apps · SaaS · AI tools · Canada
-
 I build web apps, SaaS and AI tools that are clear, fast and easy to live with.<br>
 Small, reviewable changes. Real tests. Software that holds up in production.
 
