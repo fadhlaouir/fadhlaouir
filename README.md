@@ -23,7 +23,7 @@ Small, reviewable changes. Real tests. Software that holds up in production.
 
 ### Contributing upstream
 
-In my free time I send focused fixes to the open-source tools I build with — IBM, Meta, Google and others. Each one is reproduced and kept to a single change, with a test wherever the project has a place for one.
+In my free time I send focused fixes to the open-source tools I build with — IBM, Meta, Google, Avalonia and others. Each one is reproduced and kept to a single change, with a test wherever the project has a place for one.
 
 **[Every contribution and where it stands →](CONTRIBUTIONS.md)**
 

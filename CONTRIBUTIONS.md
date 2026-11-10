@@ -2,17 +2,16 @@
 
 In my free time I send fixes to the open-source tools I build with. Each one is reproduced and kept to a single focused change, with a test wherever the project has a place for one. This page tracks every one of them, including the ones that did not land and why.
 
-_Last updated 10 November 2026: 4 merged, 5 in review, 2 closed._
+_Last updated 10 November 2026: 4 merged, 4 in review, 3 closed._
 
 ## In review
 
 | Project | Change | Fixes | Build | Review |
 |---|---|---|---|---|
-| [Avalonia · XamlX #150](https://github.com/kekekeks/XamlX/pull/150) | Accept an enum value written with surrounding whitespace, as `[Flags]` values already were | [AvaloniaUI/Avalonia#22778](https://github.com/AvaloniaUI/Avalonia/issues/22778) | A new test fails without the fix and passes with it; all 224 XamlX parser tests pass, and Avalonia's 638 XAML tests pass with the fix in its submodule | Waiting for a maintainer |
+| [Avalonia · XamlX #150](https://github.com/kekekeks/XamlX/pull/150) | Accept an enum value written with surrounding whitespace, as `[Flags]` values already were | [AvaloniaUI/Avalonia#22778](https://github.com/AvaloniaUI/Avalonia/issues/22778) | A new test fails without the fix and passes with it; all 224 XamlX parser tests pass, Avalonia's 638 XAML tests pass with the fix in its submodule, and XamlX CI passes on Linux and Windows | Waiting for a maintainer |
 | [Meta · Docusaurus #12839](https://github.com/meta/docusaurus/pull/12839) | Convert MSYS Git paths to real Windows paths so builds work with MSYS2's Git | [#11920](https://github.com/meta/docusaurus/issues/11920) | A new CI job runs a real `docusaurus build` with MSYS2's Git: it fails without the fix and passes with it, on my fork. CLA, security scans and the preview deploy pass; the full CI waits for a maintainer to approve it | CodeRabbit reviewed it. Waiting for a maintainer |
 | [Google · Functions Framework for Node.js #811](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/pull/811) | Parse `application/*+json` request bodies as JSON | [#809](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/issues/809) | CLA and commit-message checks pass; the full CI waits for a maintainer to approve it | Waiting for a maintainer |
 | [Amethystora image template #1](https://github.com/Arsslensoft/amethystora-image-template/pull/1) | Apply a company policy that holds VPN connections alone, instead of dropping it silently | | The image build waits for a maintainer to approve it | Waiting for the maintainer |
-| [Amethystora #10](https://github.com/Arsslensoft/amethystora/pull/10) | Refresh the Security app's UI instantly after switching or turning off a profile | [#9](https://github.com/Arsslensoft/amethystora/issues/9) | Could not build locally (no GTK4 toolchain); asked the maintainer to verify the build before merging | Approved 9 November. The same day the maintainer fixed #9 more broadly on `main` ([f15eec4](https://github.com/Arsslensoft/amethystora/commit/f15eec4)), so I offered to close it or rebase whatever is still useful |
 
 ## Merged
 
@@ -27,6 +26,7 @@ _Last updated 10 November 2026: 4 merged, 5 in review, 2 closed._
 
 | Project | Change | Why it closed |
 |---|---|---|
+| [Amethystora #10](https://github.com/Arsslensoft/amethystora/pull/10) | Refresh the Security app's UI instantly after switching or turning off a profile | The maintainer approved it, then fixed [#9](https://github.com/Arsslensoft/amethystora/issues/9) more broadly on `main` ([f15eec4](https://github.com/Arsslensoft/amethystora/commit/f15eec4)): every app now shows a change the moment it is made, from any source. I closed mine in its favour on 10 November. |
 | [Supabase #52673](https://github.com/supabase/supabase/pull/52673) | Correct the description of `auth.email.secure_password_change` | Someone else's [#52552](https://github.com/supabase/supabase/pull/52552) made the same correction first, so I closed mine as a duplicate. |
 | [Microsoft · TypeScript #65132](https://github.com/microsoft/TypeScript/pull/65132) | Match discriminated-union members when inferring between unions | A maintainer pointed to [#64695](https://github.com/microsoft/TypeScript/pull/64695), work already under way on the same problem, so I closed mine in its favour. |
 
