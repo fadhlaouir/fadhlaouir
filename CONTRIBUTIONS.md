@@ -2,13 +2,13 @@
 
 In my free time I send fixes to the open-source tools I build with. Each one is reproduced and kept to a single focused change, with a test wherever the project has a place for one. This page tracks every one of them, including the ones that did not land and why.
 
-_Last updated 10 November 2026: 5 merged, 4 in review, 3 closed._
+_Last updated 11 November 2026: 5 merged, 4 in review, 3 closed._
 
 ## In review
 
 | Project | Change | Fixes | Build | Review |
 |---|---|---|---|---|
-| [Avalonia #22781](https://github.com/AvaloniaUI/Avalonia/pull/22781) | Bring the XamlX fix below into Avalonia, with a test for the reported case, at a maintainer's request | [#22778](https://github.com/AvaloniaUI/Avalonia/issues/22778) | The new test fails on the current submodule and passes with the update; all 639 XAML tests pass (1 skipped). The full CI waits for a maintainer to start it | Waiting for a maintainer |
+| [Avalonia #22781](https://github.com/AvaloniaUI/Avalonia/pull/22781) | Bring the XamlX fix below into Avalonia, with a test for the reported case, at a maintainer's request | [#22778](https://github.com/AvaloniaUI/Avalonia/issues/22778) | The new test fails on the current submodule and passes with the update; all 639 XAML tests pass (1 skipped). The full CI waits for a maintainer to start it | Approved by a maintainer on 10 November. Waiting for the merge |
 | [Meta · Docusaurus #12839](https://github.com/meta/docusaurus/pull/12839) | Convert MSYS Git paths to real Windows paths so builds work with MSYS2's Git | [#11920](https://github.com/meta/docusaurus/issues/11920) | A new CI job runs a real `docusaurus build` with MSYS2's Git: it fails without the fix and passes with it, on my fork. CLA, security scans and the preview deploy pass; the full CI waits for a maintainer to approve it | CodeRabbit reviewed it. Waiting for a maintainer |
 | [Google · Functions Framework for Node.js #811](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/pull/811) | Parse `application/*+json` request bodies as JSON | [#809](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/issues/809) | CLA and commit-message checks pass; the full CI waits for a maintainer to approve it | Waiting for a maintainer |
 | [Amethystora image template #1](https://github.com/Arsslensoft/amethystora-image-template/pull/1) | Apply a company policy that holds VPN connections alone, instead of dropping it silently | | The image build waits for a maintainer to approve it | Waiting for the maintainer |
