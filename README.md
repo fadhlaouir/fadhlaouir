@@ -30,14 +30,3 @@ In my free time I send focused fixes to the open-source tools I build with — I
 ### How I work
 
 Understand the problem before writing code. Keep each change small enough to review. Prove it works, and say plainly what was not checked.
-
-<div align="center">
-<br>
-
-<img height="150" alt="" src="https://github-readme-stats.vercel.app/api?username=fadhlaouir&show_icons=true&hide_border=true&count_private=true&hide_title=true&theme=graywhite#gh-light-mode-only">
-<img height="150" alt="" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fadhlaouir&layout=compact&hide_border=true&theme=graywhite#gh-light-mode-only">
-
-<img height="150" alt="" src="https://github-readme-stats.vercel.app/api?username=fadhlaouir&show_icons=true&hide_border=true&count_private=true&hide_title=true&theme=dark#gh-dark-mode-only">
-<img height="150" alt="" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fadhlaouir&layout=compact&hide_border=true&theme=dark#gh-dark-mode-only">
-
-</div>
