@@ -2,7 +2,7 @@
 
 In my free time I send fixes to the open-source tools I build with. Each one is reproduced and kept to a single focused change, with a test wherever the project has a place for one. This page tracks every one of them, including the ones that did not land and why.
 
-_Last updated 23 November 2026: 6 merged, 4 in review, 4 closed._
+_Last updated 25 November 2026: 6 merged, 4 in review, 4 closed._
 
 ## In review
 
@@ -10,7 +10,7 @@ _Last updated 23 November 2026: 6 merged, 4 in review, 4 closed._
 |---|---|---|---|---|
 | [Meta · Docusaurus #12839](https://github.com/meta/docusaurus/pull/12839) | Convert MSYS Git paths to real Windows paths so builds work with MSYS2's Git | [#11920](https://github.com/meta/docusaurus/issues/11920) | A new CI job runs a real `docusaurus build` with MSYS2's Git: it fails without the fix and passes with it, on my fork. CLA, security scans and the preview deploy pass; the full CI waits for a maintainer to approve it | CodeRabbit reviewed it. Waiting for a maintainer |
 | [Google · Functions Framework for Node.js #811](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/pull/811) | Parse `application/*+json` request bodies as JSON | [#809](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/issues/809) | CLA and commit-message checks pass; the full CI waits for a maintainer to approve it | Waiting for a maintainer |
-| [Amethystora #16](https://github.com/Arsslensoft/amethystora/pull/16) | Count a file's "last modified by" as its author and its total editing time as edit history, not as a time | [#12](https://github.com/Arsslensoft/amethystora/issues/12) | A new build test runs the real field sorting on each kind's names: it fails without the fix and passes with it. The CI waits for the maintainer to approve it | Waiting for the maintainer |
+| [Amethystora #16](https://github.com/Arsslensoft/amethystora/pull/16) | Count a file's "last modified by" as its author and its total editing time as edit history, not as a time | [#12](https://github.com/Arsslensoft/amethystora/issues/12) | A new build test runs the real field sorting on each kind's names: it fails without the fix and passes with it. Now listed in the CI's test list, so every pull request runs it | The maintainer ran the test and confirmed the fix on 25 November; I brought the branch up to date and listed the test in CI as he asked. Waiting for his merge |
 | [Amethystora image template #2](https://github.com/Arsslensoft/amethystora-image-template/pull/2) | Move the base image to the current signed release, as the pinned one was removed and every build failed its signature check | | The image build waits for the maintainer to approve it | Waiting for the maintainer |
 
 ## Merged
