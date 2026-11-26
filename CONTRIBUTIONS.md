@@ -1,13 +1,14 @@
 # Contributing upstream
 
-In my free time I send fixes to the open-source tools I build with. Each one is reproduced and kept to a single focused change, with a test wherever the project has a place for one. This page tracks every one of them, including the ones that did not land and why.
+In my free time I send fixes to open-source projects, as a hobby and a challenge: mostly the tools I build with, sometimes a codebase I just want to learn. Each one is reproduced and kept to a single focused change, with a test wherever the project has a place for one. This page tracks every one of them, including the ones that did not land and why.
 
-_Last updated 25 November 2026: 7 merged, 3 in review, 4 closed._
+_Last updated 25 November 2026: 7 merged, 4 in review, 4 closed._
 
 ## In review
 
 | Project | Change | Fixes | Build | Review |
 |---|---|---|---|---|
+| [GitNexus #4116](https://github.com/abhigyanpatwari/GitNexus/pull/4116) | Describe a symbol's direct callers as "review first" rather than "will break", and test every threshold in the impact guide's risk table against the scorer so the two cannot drift apart | [#2975](https://github.com/abhigyanpatwari/GitNexus/issues/2975) | The new test, typechecks and the skill-sync guards pass locally; the new test fails when a documented threshold drifts in either direction. The full CI runs on the pull request | Waiting for a maintainer |
 | [Meta · Docusaurus #12839](https://github.com/meta/docusaurus/pull/12839) | Convert MSYS Git paths to real Windows paths so builds work with MSYS2's Git | [#11920](https://github.com/meta/docusaurus/issues/11920) | A new CI job runs a real `docusaurus build` with MSYS2's Git: it fails without the fix and passes with it, on my fork. CLA, security scans and the preview deploy pass; the full CI waits for a maintainer to approve it | CodeRabbit reviewed it. Waiting for a maintainer |
 | [Google · Functions Framework for Node.js #811](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/pull/811) | Parse `application/*+json` request bodies as JSON | [#809](https://github.com/GoogleCloudPlatform/functions-framework-nodejs/issues/809) | CLA and commit-message checks pass; the full CI waits for a maintainer to approve it | Waiting for a maintainer |
 | [Amethystora image template #2](https://github.com/Arsslensoft/amethystora-image-template/pull/2) | Move the base image to the current signed release, as the pinned one was removed and every build failed its signature check | | The image build waits for the maintainer to approve it | Waiting for the maintainer |
